@@ -113,7 +113,7 @@ def load_data():
     import pandas as pd
     pd.options.display.max_seq_items = 2000
     # Importing the csv file
-    data = pd.read_csv('/Users/ir/depot/itsm-ticket-classification/datasets/GMSCRFDump.csv', encoding = 'ISO-8859-1')
+    data = pd.read_csv('GMSCRFDump.csv', encoding = 'ISO-8859-1')
     # shape the data
     data.shape
     # removing duplicates
